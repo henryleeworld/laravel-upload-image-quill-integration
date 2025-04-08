@@ -22,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/YQkWYEY.png)
+![](https://i.imgur.com/whFU6OR.png)
 > HTML 編輯器的介面其實長得很像 Word，有各種按鈕讓你設定跟編輯文字的外觀
