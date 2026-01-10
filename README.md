@@ -1,4 +1,4 @@
-# Laravel 11 上傳圖片 Quill 整合
+# Laravel 12 上傳圖片 Quill 整合
 
 整合 Quill 上傳圖片讓編輯器可上傳檔案甚至直瀏覽伺器服中的檔案。
 
@@ -16,11 +16,15 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/quill` 來進行 Quill 編輯。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/whFU6OR.png)
+![](https://i.imgur.com/lPUo059.png)
 > HTML 編輯器的介面其實長得很像 Word，有各種按鈕讓你設定跟編輯文字的外觀

@@ -15,9 +15,7 @@ class QuillController extends Controller
     }
   
     /**
-     * success response method.
-     *
-     * @return \Illuminate\Http\Response
+     * Upload the image for the user.
      */
     public function upload(Request $request)
     {
